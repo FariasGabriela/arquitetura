@@ -16,3 +16,25 @@ Tipo de arquitetura:
 *Definição formal:* é a organização fundamental de um sistema e seus componentes, suas relações, seu ambiente, bem como os principios que giuam seu design e evolução.
 
 A arte de um arquiteto é pensar em como isso vai evoluir e seja sustentável.
+
+---
+
+## Vantagens de ter conhecimento em arquitetura de software:
+* Ter uma visão macro para a micro, te dando um maior dominio;
+* Ter mais opções e poder escolher a melhor solução, entendo o contexto pode melhorar a solução;
+* Pensar a longo prazo e na sustentabilidade;
+* Ficar menos influenciável com "hypes" do mercado;
+* Ter boas práticas, estar mergulhado nisso;
+* Ter clareza do impacto do software possui na organização como um todo;
+* Tomar decisões com mais segurança;
+
+
+
+
+
+
+
+
+
+
+
