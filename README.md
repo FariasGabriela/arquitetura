@@ -28,6 +28,15 @@ A arte de um arquiteto é pensar em como isso vai evoluir e seja sustentável.
 * Ter clareza do impacto do software possui na organização como um todo;
 * Tomar decisões com mais segurança;
 
+___
+
+## Arquitetura e Design
+Arquitetura é o nível mais alto, componentização, abstrações, o que os componentes tem em comum, como padronizar. 
+Design: mais baixo nivel, escopo mais local, a classe com menos responsabilidade. 
+
+## Sustentabilidade
+Quanto mais tempo o software fica no ar, mais ele retorna, e desenvolver software é caro e precisa se pagar ao longo de tempo
+A solução precisa ser arquitetada! ou seja, precisa ser pensado para ser sustentável desde o dia zero.
 
 
 
