@@ -38,7 +38,20 @@ Design: mais baixo nivel, escopo mais local, a classe com menos responsabilidade
 Quanto mais tempo o software fica no ar, mais ele retorna, e desenvolver software é caro e precisa se pagar ao longo de tempo
 A solução precisa ser arquitetada! ou seja, precisa ser pensado para ser sustentável desde o dia zero.
 
+## Pilares da arquitetura de software:
+* Estruturação
+* Componentização
+* Relacionamento entre sistemas
+* Governança
 
+## Requisitos Arquiteturais: consegue definir as "regras do jogo"
+* Performance
+* Armazenamento dos dados
+* Escalabilidade
+* Segurança
+* Legal
+* Audit
+* Marketing
 
 
 
