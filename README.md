@@ -53,6 +53,12 @@ A solução precisa ser arquitetada! ou seja, precisa ser pensado para ser suste
 * Audit
 * Marketing
 
+---
+
+## Caracrteristicas arquiteturais
+Esteja preparada com pontos e caracteristicas arquiteturais ( requisitos não funcionais ) para que o sistema consiga suportar carga, se manter online e crescer.
+
+
 
 
 
