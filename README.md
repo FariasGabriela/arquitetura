@@ -58,6 +58,17 @@ A solução precisa ser arquitetada! ou seja, precisa ser pensado para ser suste
 ## Caracrteristicas arquiteturais
 Esteja preparada com pontos e caracteristicas arquiteturais ( requisitos não funcionais ) para que o sistema consiga suportar carga, se manter online e crescer.
 
+##Caracteristicas arquiteturais: Estruturais ( mais ligadas ao processo de desenvolvimento )
+* Configurável: Trabalhar com variaveis de ambiente, key de facil acesso, está facil essa config?
+* Extensibilidade: usar um gatewey de pagamento, foi feito uma implementação e precisa ser alterada para outro gateway, é facil? trocar banco de dados, message broker
+* Facil instalação: padronização do ambiente, por exemplo, com containers
+* Reuso de componentes: diferentes equipes podem criar a mesma coisa, e são duas coisas para serem mantidas.
+* Internacionalização: Começou a trabalhar com real e mudou pra dolar, como vai funcionar o software? tem suporte para isso?
+* Fácil manutenção: desde a estrutura, até mesmo correções rapidas.
+* Portabilidade: os sistemas tem que ser menos dependentes de outras ferramentas. Mudar banco de dados sem impactar negativamente e trabalhosamente o sistema.
+* Fácil suporte: entender rapidamente aonde acontece os problemas.
+  
+
 
 
 
