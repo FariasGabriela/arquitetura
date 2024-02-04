@@ -71,7 +71,7 @@ Esteja preparada com pontos e caracteristicas arquiteturais ( requisitos não fu
 
 ## Perspecticas para arquitetar software de qualidade
 * Performance: Desempenho do software; Podem ser avaliadas por: Latencia ou response time (quanto menor, melhor. levando em consideração o fator rede), Throughput ( mostra o quando de requisição aguenta, quanto maior, melhor );
-* Escalabilidade
+* Escalabilidade: Motivos que causam: Processamento ineficiente, como ele lida com a aplicação em si; Recursos computacionais limitados; Trabalhar de forma bloqueante (recebe  a requisição e nao trava); Acesso serial aos recursos; Para aumentar a escalabilidade:  
 * Resiliencia
   
 
