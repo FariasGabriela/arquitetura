@@ -73,6 +73,40 @@ Esteja preparada com pontos e caracteristicas arquiteturais ( requisitos não fu
 * Performance: Desempenho do software; Podem ser avaliadas por: Latencia ou response time (quanto menor, melhor. levando em consideração o fator rede), Throughput ( mostra o quando de requisição aguenta, quanto maior, melhor );
 * Escalabilidade: Motivos que causam: Processamento ineficiente, como ele lida com a aplicação em si; Recursos computacionais limitados; Trabalhar de forma bloqueante (recebe  a requisição e nao trava); Acesso serial aos recursos; Para aumentar a escalabilidade:  
 * Resiliencia
+
+-----
+
+## Escalabilidade
+
+É a capacidade do sistema de suportar o aumento dos workloados incrementando ou reduzindo o custo em igual ou menor proporção.
+
+**Escala vertical**: apenas uma maquina com mais recurso computacional
+
+**Escala Horizontal**: varias maquinas ( caso caiu o sistema nao fica fora do ar )
+
+
+Escalando aplicações: 
+* Descentralizar: Disco efêmero, servidor de aplicação fica em um lugar e servidor de asstes em outro, cache centralizado, sessões centralizadas, upload e gravação de arquivos não ficam na sua maquina ( para conseguir fazer o download )
+
+  Escalar é desencentralizar para remover a maquina quando quiser sem perder informações e aumentar o throwput.
+
+
+**Escalar Banco de dados**
+* Aumentar o recurso computacional;
+* Distruibuindo responsabilidades (escrita vs leitura);
+* Shards de forma horizontal (adicionar varias maquinas de leitura, mudar o formato do banco de dados, dividir partiçoes dentro do BD);
+* Serverless ( qualquer coisa que nao se preocupe em nível de servidor )
+  
+
+
+
+
+
+
+
+
+
+
   
 
 
