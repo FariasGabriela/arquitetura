@@ -98,6 +98,22 @@ Escalando aplicações:
 * Serverless ( qualquer coisa que nao se preocupe em nível de servidor )
   
 
+----
+
+***Um sistema lento no ar muitas vezes é pior que um sistema fora do ar!***
+
+----
+Pontos que nos ajudam a ter mais resiliencia nas aplicações: 
+* Health Check
+* Rate Limit: Limitar trafico de rede;
+* Circuit breaker: protege o sistema para negar as requisições em caso de sobrecarga, por exemplo;
+* API Gateway: Centraliza todas as requisições, e aplica regras politicas para aceitar ou negar a requisição, entendendo as necessidades individuais do sistema, podemos evitar requisições inapropriadas. Implementa politicas de rate limiting, Health Check e outras.
+* Service Mesh: Controla o trafico de rede. Evita implementação de proteção pelo próprio sistema.
+* Comunicação assíncrona: Evita perda de dados, consegue dar vasão a mais requisições. Não perde dados caso o server estiver fora, o servidor pode processar a informação quando o sistema estiver online. Processar aos poucos os dados. Para começar entenda com profundidade o memessage broker / sistema de stream;
+* Garantias de Entrega com Retry:
+* Garantias de entrega com Kafka:
+* Situações complexas e decisões de alto nível: 
+
 
 
 
